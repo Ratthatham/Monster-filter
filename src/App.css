@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-title{
+  font-size: 76px;
+  color: black;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  font-family: "Trirong", serif;;
 }
